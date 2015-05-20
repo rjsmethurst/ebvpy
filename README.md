@@ -17,12 +17,17 @@ The corrected magnitude is then therefore m_corr,b = m_obs,b - A_b.
 
 An example use of the functions is as follows:
 
-  `from ebvpy import *`
-  `ebv = calc_ebv(ra=[160.23, 150.24, 26.346], dec=[-32.457, -4.578, 67.32])`
-  `print ebv`
-  `array([ 0.07547796,  0.0263974 ,  1.47947371])`
-  `calc_color_correction('u', ebv)`
-  `array([ 0.31995106,  0.11189858,  6.27148906])`
+  >>> `from ebvpy import *`
+  
+  >>> `ebv = calc_ebv(ra=[160.23, 150.24, 26.346], dec=[-32.457, -4.578, 67.32])`
+  
+  >>> `print ebv`
+  
+  >>> `array([ 0.07547796,  0.0263974 ,  1.47947371])`
+  
+  >>> `calc_color_correction('u', ebv)`
+  
+  >>> `array([ 0.31995106,  0.11189858,  6.27148906])`
   
 
 
