@@ -6,7 +6,7 @@ Schlegel et al. 1998, ApJ, 500, 525: http://adsabs.harvard.edu/abs/1998ApJ...500
 
 The maps are split into SGP and NGP and in the paper a prescription is given for converting between galactic longititude (l) and latitude (b) coordinates and x and y pixel coordinates of the maps. This conversion is described as:
 
-![equations](https://www.dropbox.com/s/5a4bpdtspyd94lm/equation.gif?dl=0)
+![equations](https://github.com/rjsmethurst/ebvpy/blob/master/equation.gif)
 
 where n=+1 for the north galactic pole map (i.e. b > 0) and n = -1 for the south galactic pole map (i.e. b < 0).
 
