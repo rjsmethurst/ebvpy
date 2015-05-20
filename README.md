@@ -10,9 +10,9 @@ The maps are split into SGP and NGP and in the paper a prescription is given for
 
 where n=+1 for the north galactic pole map (i.e. b > 0) and n = -1 for the south galactic pole map (i.e. b < 0).
 
-There is also a function for calculating the magnitude correction, A_b in a given band from the A_b/E(B-V) values provided in Table 9 of Schlegel et al. (1998) or a user defined value. 
+There is also a function for calculating the magnitude correction, A_b in a given band, b from the A_b/E(B-V) values provided in Table 9 of Schlegel et al. (1998) or a user defined value. 
 
-The corrected magnitude is then therefore m_corr,b = m_obs,b - A_b. 
+The corrected magnitude is then therefore m_corr,b = m_obs,b - A_b for a given band, b.
 
 An example use of the functions is as follows:
 
