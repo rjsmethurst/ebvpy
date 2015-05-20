@@ -5,9 +5,7 @@ This function module provides a function for extracting the E(B-V) extinction/re
 Schlegel et al. 1998, ApJ, 500, 525: http://adsabs.harvard.edu/abs/1998ApJ...500..525S. 
 
 The maps are split into SGP and NGP and in the paper a prescription is given for converting between galactic longititude (l) and latitude (b) coordinates and x and y pixel coordinates of the maps. This conversion is described as:
-  X=sqrt(1-n.sin(b)).cos(l).2048 + 2047.5
-  
-  Y=-n.sqrt(1-n.sin(b)).sin(l).2048 + 2047.5
+<a href="http://www.codecogs.com/eqnedit.php?latex=x&space;=&space;2048&space;\times&space;\sqrt{1&space;-&space;n*\sin&space;(b)}&space;\cos&space;(l)&space;&plus;&space;2047.5&space;\\&space;y&space;=&space;-2048&space;\times&space;n&space;\sqrt{1&space;-&space;n*\sin&space;(b)}&space;\sin&space;(l)&space;&plus;&space;2047.5" target="_blank"><img src="http://latex.codecogs.com/gif.latex?x&space;=&space;2048&space;\times&space;\sqrt{1&space;-&space;n*\sin&space;(b)}&space;\cos&space;(l)&space;&plus;&space;2047.5&space;\\&space;y&space;=&space;-2048&space;\times&space;n&space;\sqrt{1&space;-&space;n*\sin&space;(b)}&space;\sin&space;(l)&space;&plus;&space;2047.5" title="x = 2048 \times \sqrt{1 - n*\sin (b)} \cos (l) + 2047.5 \\ y = -2048 \times n \sqrt{1 - n*\sin (b)} \sin (l) + 2047.5" /></a>
 
 where n=+1 for the north galactic pole map (i.e. b > 0) and n = -1 for the south galactic pole map (i.e. b < 0).
 
