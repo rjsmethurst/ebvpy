@@ -27,6 +27,10 @@ An example use of the functions is as follows:
   `>>> calc_color_correction('u', ebv)`
   
   `   array([ 0.31995106,  0.11189858,  6.27148906])`
+ 
+If you use this code for your research, please acknowledge it with a footnote link to this repository. 
   
-
+License
+=====
+Apache 2.0
 
